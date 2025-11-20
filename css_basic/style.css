@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color:aquamarine;
+    border: 0caps solid black;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+.works_on_smartphone main {
+    flex-direction: column;
+}
+.logo {
+  font-size: 2rem;
+  padding-right: 20px;
+  font-weight: bold;
+}
+header li.logo {
+  font-size: 2rem;
+  padding-right: 20px;
+  font-weight: bold;
+}
