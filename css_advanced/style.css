@@ -1,0 +1,115 @@
+header {
+    position: absolute;      /* makes the header sit on top of the hero image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 80px;      /* spacing around the header */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;  /* logo left, menu right */
+    align-items: center;
+}
+
+nav img {
+    width: 40px;           /* adjust logo size */
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;             /* space between menu items */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;          /* text white like screenshot */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #c497ff;        /* purple hover like screenshot */
+}
+.hero {
+    height: 100vh;
+    background: url("imageresource/Object.png") center/cover no-repeat;
+    background-color:silver;
+    position: relative;
+}
+
+.pros2 {
+    display: flex;
+    justify-content: center;  /* center the whole row */
+    align-items: center;
+    gap: 50px; /* spacing between images */
+    margin-top: 50px;
+}
+.pros3 {
+    display: flex;
+    gap: 50px; /* spacing between images */
+    margin-bottom: 50px;
+}
+.pro {
+    text-align: center;
+    color: white; /* matches the hero section style */
+}
+
+.pro img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* circle images like screenshot */
+    object-fit: cover;
+}
+.mid1 {
+    display: flex;
+    justify-content:center; /* center the image */
+    align-items: center;
+    gap: 30px; /* spacing between image and text */
+    background-color: rgb(196, 95, 255);
+    padding: 70px;
+    color: white;
+
+}
+.mid1 img {
+    margin-left: 10px;
+    width: 150px;
+}
+.vid {
+    margin-top: 50px;
+    text-align: center;
+}
+.vid1, .vid2, .vid3, .vid4 {
+    display: inline-block;
+    width: 220px;
+    margin: 20px;
+    text-align: left;
+}
+.h4 .p {
+    color:rgb(196, 95, 255);
+}
+.membership {
+    background-color: rgb(14, 17, 34);
+    text-align: center;
+    padding: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+}
+.btn {
+    background-color: rgb(196, 95, 255);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+}
