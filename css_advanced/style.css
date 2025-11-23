@@ -57,6 +57,11 @@ nav ul li a:hover {
     gap: 50px; /* spacing between images */
     margin-top: 50px;
 }
+.purple {
+    color: #C271FF !important;
+}
+
+
 .pros-section {
     display: flex;
     flex-direction: column;
