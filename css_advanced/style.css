@@ -42,6 +42,13 @@ nav ul li a:hover {
     background-color:silver;
     position: relative;
 }
+.pros1 {
+    display: flex;
+    justify-content: center;  /* center the whole row */
+    align-items: center;
+    gap: 50px; /* spacing between images */
+    margin-top: 50px;
+}
 
 .pros2 {
     display: flex;
@@ -50,11 +57,21 @@ nav ul li a:hover {
     gap: 50px; /* spacing between images */
     margin-top: 50px;
 }
+.pros-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  /* pushes children to the bottom */
+    height: 100px;              /* set the height you want */
+    align-items: center;        /* keep row centered horizontally */
+}
+
 .pros3 {
     display: flex;
-    gap: 50px; /* spacing between images */
-    margin-bottom: 50px;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-end;
 }
+
 .pro {
     text-align: center;
     color: white; /* matches the hero section style */
@@ -103,6 +120,25 @@ nav ul li a:hover {
     gap: 50px;
     display: flex;
 }
+.membership > h2 {
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+}
+.membership > div {
+    display: inline-block;
+    max-width: 200px;
+    margin: 20px;
+}
+.membership button {
+    background-color: rgb(196, 95, 255);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
 .btn {
     background-color: rgb(196, 95, 255);
     color: white;
@@ -112,4 +148,41 @@ nav ul li a:hover {
     cursor: pointer;
     margin-top: 20px;
     align-items: center;
+}
+.faq {
+    padding: 100px 0;
+    text-align: center;
+}
+.faq h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.faq > div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px 120px;
+    padding: 0 150px;
+}
+
+.faq h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #071629;
+    color: white;
+    padding: 60px 90px;
+    height: 100px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot i {
+    font-size: 22px;
+    margin-left: 15px;
+    cursor: pointer;
 }
