@@ -1,10 +1,8 @@
-# alx_html_css 
-
- # 🌐 Web Design Projects
+ # 🌐 Web Design Project – *Headphones*
 
 ## 📌 Overview
 
-This projects is a fully designed webpage created **from scratch** as part of my web development assignment.
+This project is a fully designed webpage created **from scratch** as part of my web development assignment.
 The goal was to demonstrate understanding of **HTML**, **CSS**, and **responsive design** without using any pre-written code or frameworks.
 
 ## 🎯 Objectives
@@ -26,4 +24,3 @@ The goal was to demonstrate understanding of **HTML**, **CSS**, and **responsive
 * Clean and modern interface design
 * Easy-to-read content structure
 * Custom styling written entirely by hand
-
