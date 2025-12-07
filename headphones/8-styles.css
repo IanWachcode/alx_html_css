@@ -47,7 +47,17 @@ body {
 .list ul li:hover {
   color: red;
 }
-
+.nav-list {
+  color: white;
+}
+.nav-item {
+  cursor: pointer;
+  color: white;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
 /* Hide hamburger on desktop */
 .hamburger {
   display: none;
